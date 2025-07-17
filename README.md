@@ -41,6 +41,40 @@ The output will be displayed on the terminal and saved as `system_report.txt`.
 
 ## 🧾 Sample Output
 
+System Information Report
+Date and Time : 2025-07-16 19:30
+Hostname : my-vm-host
+Operating System : Ubuntu 20.04.6 LTS
+Kernel Version : 5.15.0-60-generic
+
+Uptime : 3 days, 4:22
+Users Logged In : ayush
+
+CPU Load (1/5/15 min): 0.12, 0.24, 0.18
+CPU Cores : 4
+
+Total RAM : 8.0 GB
+Used RAM : 2.5 GB
+Free RAM : 5.5 GB
+
+Total Swap : 2.0 GB
+Used Swap : 0.0 GB
+
+Disk Usage:
+Filesystem Size Used Avail Use% Mounted on
+/dev/sda1 50G 15G 32G 32% /
+
+Top 5 Memory-consuming Processes:
+PID USER %MEM COMMAND
+1234 ayush 4.5 chrome
+2345 ayush 3.1 code
+3456 ayush 2.4 firefox
+4567 root 1.9 java
+5678 mysql 1.7 mysqld
+
+IP Address : 192.168.1.20
+DNS Servers : 8.8.8.8, 1.1.1.1
+
 
 
 
